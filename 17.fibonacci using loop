@@ -7,10 +7,10 @@ int main()
     cin>>n;
     for(i=0;i<n;i++)
     {
-        c=a+b;//1+1
-        cout<<"\n"<<c;//1
-        a=b;//1 0 1 1
-        b=c;//0 1 1 2
+        c=a+b;
+        cout<<"\n"<<c;
+        a=b;
+        b=c;
     }
     return 0;
 }
